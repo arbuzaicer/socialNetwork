@@ -1,0 +1,44 @@
+.nav {
+    grid-area: navName;
+    padding: 10px 5px;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+.some {
+    display: flex;
+    align-items: center;
+}
+
+.MenuIcons {
+    width: 30px;
+    height: 30px;
+}
+
+.item a{
+    color: #075019;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.MenuList {
+    margin-left: 10px;
+    align-self: center;
+}
+
+.item a.activeLink {
+    color: darkgoldenrod;
+}
+
+/*Hover effects*/
+
+
+.some:hover {
+    background: rgba(216, 216, 216, 0.53);
+}
+
+.item a:hover {
+    color: #828282;
+}
+

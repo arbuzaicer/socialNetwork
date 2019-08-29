@@ -1,0 +1,19 @@
+.friendsList {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+}
+
+.friendsSection {
+    text-align: center;
+}
+.friendsSection>a {
+    text-decoration: none;
+}
+.friendsSection>a:visited {
+    color: black;
+}
+.friendsCount {
+    color: grey
+}

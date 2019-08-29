@@ -1,0 +1,20 @@
+.dialog {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.dialog a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.user-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/*Hover effects*/
+
+.dialog a:hover {
+    color: #d2d2d2;
+}

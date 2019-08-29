@@ -1,0 +1,18 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 10px;
+}
+textarea {
+    height: 50px;
+    margin: 5px 15px;
+}
+.textArea {
+    display: grid;
+    grid-template-columns: 12fr 2fr;
+}
+.textArea button {
+    height: 55px;
+    margin: 5px 15px 0 0;
+
+}

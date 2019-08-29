@@ -1,0 +1,9 @@
+.posts {
+    background: gray;
+}
+.postBlock {
+    padding: 10px;
+}
+textarea {
+    resize: none;
+}

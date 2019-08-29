@@ -1,0 +1,41 @@
+.contentArea {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin: 10px 0;
+}
+.userLogo {
+    display: grid;
+    text-align: center;
+}
+.userIcon {
+    width: 50px;
+    height: 50px;
+}
+.userLogo>img {
+    margin: 0 auto;
+}
+.followButton {
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    background: lightgreen;
+}
+.userContent {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border: 1px solid black;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: 80%;
+}
+.text {
+    display: grid;
+}
+.location {
+    text-align: right;
+}
+.userInitialized {
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+}
